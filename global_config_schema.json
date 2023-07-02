@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": [ "rate_limit"],
+    "properties": {
+      "rate_limit": {
+        "title":"频率限制(秒)",
+        "description":"全局限制兔兔每X秒只能说一句话",
+        "type": "integer"
+      }
+    }
+  }
