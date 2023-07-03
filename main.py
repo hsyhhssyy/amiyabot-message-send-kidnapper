@@ -27,9 +27,7 @@ bot = MessageSendKidnapperPluginInstance(
     plugin_id='amiyabot-message-send-kidnapper',
     plugin_type='',
     description='将Adaper的发送消息拦截到数据库中。',
-    document=f'{curr_dir}/README.md',
-    global_config_default=f'{curr_dir}/global_config_default.json',
-    global_config_schema=f'{curr_dir}/global_config_schema.json',
+    document=f'{curr_dir}/README.md'
 
 )
 
